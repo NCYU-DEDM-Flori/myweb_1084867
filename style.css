@@ -1,0 +1,299 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /*  border: solid 2px red;*/
+}
+html,
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY-9Ag9eUCMH0N09E21VfetbJp5eAvhagoxWZh10kSKrXM9IMK6ew4dY55DW2bO3Lfpb4&usqp=CAU);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-size: 14px;
+  font-family: 微軟正黑體;
+  font-weight: 700;
+}
+a {
+  color: initial;
+  text-decoration: initial;
+}
+.box1 {
+  width: 250px;
+  background-color: #fff;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3);
+  transition: 0.8s;
+}
+.box1:hover {
+  box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.4);
+  transform: translate(-5px, -5px);
+}
+.box1:hover .top1 {
+  height: 200px;
+}
+.top1 {
+  background-image: url(https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/f8d9a9ab1fb0acb4e56272cfe3f208c155724f98.png);
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  position: relative;
+  transition: 0.8s;
+}
+.top1 .tag1 {
+  width: 25px;
+  height: 50px;
+  background-color: #f8d8cf;
+  float: right;
+  margin-right: 20px;
+}
+.top1 .name1 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  padding: 5px 15px;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  background: linear-gradient(transparent 0%, black 100%);
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.top1 .name1 .smallText1 {
+  font-size: 14px;
+}
+.cirbutton1 {
+  width: 50px;
+  height: 50px;
+  background-color: #f8d8cf;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  bottom: -20px;
+}
+.bottom {
+  padding: 10px 20px 20px 20px;
+}
+.bottom li {
+  padding: 5px 0px;
+}
+.bottom h3 {
+  display: inline-block;
+}
+.bottom u1 {
+  list-style: none;
+  padding-left: 0;
+}
+.buttons1 {
+  margin-top: 10px;
+}
+.bottons1 .btn {
+  display: inline-block;
+  padding: 10px 25px;
+  letter-spacing: 2px;
+}
+.btnWebsite1 {
+  background-color: #f8d8cf;
+  color: white;
+  transition: 0.5s;
+}
+.btnWebsite1:hover {
+  background-color: #9d7e58;
+}
+.btnNews1 {
+  border: solid 1px purple;
+  float: right;
+}
+.btnNews1:hover {
+  background-color: #f8d8cf;
+}
+
+
+.box2 {
+  width: 250px;
+  background-color: #fff;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3);
+  transition: 0.8s;
+}
+.box2:hover {
+  box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.4);
+  transform: translate(-5px, -5px);
+}
+.box2:hover .top2 {
+  height: 200px;
+}
+.top2 {
+  background-image: url(https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/5dc1659954564f3015fc72060bbd87b98808aed4.png);
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  position: relative;
+  transition: 0.8s;
+}
+.top2 .tag2 {
+  width: 25px;
+  height: 50px;
+  background-color: #aadad3;
+  float: right;
+  margin-right: 20px;
+}
+.top2 .name2 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  padding: 5px 15px;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  background: linear-gradient(transparent 0%, black 100%);
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.top2 .name2 .smallText2 {
+  font-size: 14px;
+}
+.cirbutton2 {
+  width: 50px;
+  height: 50px;
+  background-color: #aadad3;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  bottom: -20px;
+}
+.bottom {
+  padding: 10px 20px 20px 20px;
+}
+.bottom li {
+  padding: 5px 0px;
+}
+.bottom h3 {
+  display: inline-block;
+}
+.bottom u1 {
+  list-style: none;
+  padding-left: 0;
+}
+.buttons2 {
+  margin-top: 10px;
+}
+.bottons2 .btn {
+  display: inline-block;
+  padding: 10px 25px;
+  letter-spacing: 2px;
+}
+.btnWebsite2 {
+  background-color: #aadad3;
+  color: white;
+  transition: 0.5s;
+}
+.btnWebsite2:hover {
+  background-color: #e8cfe3;
+}
+.btnNews2 {
+  border: solid 1px purple;
+  float: right;
+}
+.btnNews2:hover {
+  background-color: #aadad3;
+}
+
+
+
+.box3 {
+  width: 250px;
+  background-color: #fff;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3);
+  transition: 0.8s;
+}
+.box3:hover {
+  box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.4);
+  transform: translate(-5px, -5px);
+}
+.box3:hover .top3 {
+  height: 200px;
+}
+.top3 {
+  background-image: url(https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/03c12c7894da033493007adcef4c9ac650a23cd8.png);
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  position: relative;
+  transition: 0.8s;
+}
+.top3 .tag3 {
+  width: 25px;
+  height: 50px;
+  background-color: #fcec99;
+  float: right;
+  margin-right: 20px;
+}
+.top3 .name3 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  padding: 5px 15px;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  background: linear-gradient(transparent 0%, black 100%);
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.top3 .name3 .smallText3 {
+  font-size: 14px;
+}
+.cirbutton3 {
+  width: 50px;
+  height: 50px;
+  background-color: #fcec99;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  bottom: -20px;
+}
+.bottom {
+  padding: 10px 20px 20px 20px;
+}
+.bottom li {
+  padding: 5px 0px;
+}
+.bottom h3 {
+  display: inline-block;
+}
+.bottom u1 {
+  list-style: none;
+  padding-left: 0;
+}
+.buttons3 {
+  margin-top: 10px;
+}
+.bottons3 .btn {
+  display: inline-block;
+  padding: 10px 25px;
+  letter-spacing: 2px;
+}
+.btnWebsite3 {
+  background-color: #fcec99;
+  color: white;
+  transition: 0.5s;
+}
+.btnWebsite3:hover {
+  background-color: #5bbfc5;
+}
+.btnNews3 {
+  border: solid 1px purple;
+  float: right;
+}
+.btnNews3:hover {
+  background-color: #fcec99;
+}
